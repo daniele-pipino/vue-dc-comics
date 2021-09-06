@@ -3,7 +3,7 @@
     <Header />
     <Main />
     <Shop />
-    <Topfooter />
+    <Footer />
   </div>
 </template>
 
@@ -12,14 +12,14 @@
 import Header from "@/components/Header.vue";
 import Main from "@/components/Main.vue";
 import Shop from "@/components/Shop.vue";
-import Topfooter from "@/components/Topfooter.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "App",
   components: {
     Header,
     Main,
     Shop,
-    Topfooter,
+    Footer,
   },
 };
 </script>
@@ -35,6 +35,7 @@ body {
 .container {
   width: 1100px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .d-flex {
@@ -45,7 +46,18 @@ body {
   justify-content: space-between;
 }
 
+.align-center {
+  align-items: center;
+}
+
 img {
   width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 15px 10px;
+  color: rgb(255, 254, 254);
+  border: 1px solid blue;
 }
 </style>
