@@ -31,15 +31,13 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 header {
   height: 100px;
   width: 100%;
 }
 
 .container {
-  width: 1000px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,12 +49,12 @@ header {
     display: flex;
     li {
       list-style-type: none;
-      margin-left: 15px;
+      margin-left: 25px;
     }
     a {
       color: black;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 12px;
       padding: 30px 0;
     }
   }
