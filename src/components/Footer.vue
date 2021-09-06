@@ -109,15 +109,14 @@ export default {
   color: #fff;
   padding: 20px;
   height: calc(530px - 80px);
-}
-
-.col ul li {
-  list-style-type: none;
-  padding: 3px 0;
-}
-a {
-  text-decoration: none;
-  color: rgb(175, 175, 175);
+  .col ul li {
+    list-style-type: none;
+    padding: 3px 0;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+  }
 }
 /* bottom footer */
 
@@ -126,16 +125,16 @@ a {
   background-color: rgb(73, 72, 72);
   position: relative;
   align-items: center;
-}
-a {
-  color: #fff;
-}
-.social-img {
-  width: 30px;
-  margin: 5px;
-}
-span {
-  color: rgb(0, 132, 255);
-  margin-right: 10px;
+  a {
+    color: #fff;
+  }
+  .social-img {
+    width: 30px;
+    margin: 5px;
+  }
+  span {
+    color: rgb(0, 132, 255);
+    margin-right: 10px;
+  }
 }
 </style>

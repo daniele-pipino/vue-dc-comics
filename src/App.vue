@@ -30,6 +30,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -48,10 +49,6 @@ body {
 
 .align-center {
   align-items: center;
-}
-
-img {
-  width: 100%;
 }
 
 .btn {
