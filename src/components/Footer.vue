@@ -116,6 +116,9 @@ export default {
   a {
     text-decoration: none;
     color: rgb(175, 175, 175);
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 /* bottom footer */

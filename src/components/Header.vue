@@ -105,7 +105,10 @@ header {
       color: black;
       text-decoration: none;
       font-size: 12px;
-      padding: 30px 0;
+      padding: 42px 0;
+      &:hover {
+        border-bottom: 5px solid rgb(0, 162, 255);
+      }
     }
   }
 }
