@@ -1,5 +1,9 @@
 <template>
-  <div class="jumbo"></div>
+  <div class="jumbo">
+    <div class="container">
+      <a href="#" class="btn">CURRENT SERIES</a>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -13,5 +17,12 @@ export default {
   height: 350px;
   background-image: url(../assets/img/jumbotron.jpg);
   background-size: cover;
+  position: relative;
+  .btn {
+    background-color: blue;
+    position: absolute;
+    bottom: -25px;
+    font-weight: bolder;
+  }
 }
 </style>
