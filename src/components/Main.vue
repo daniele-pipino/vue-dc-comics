@@ -7,6 +7,7 @@
           :key="index"
           :comic="comic"
         />
+        <a href="#" class="btn">LOAD MORE</a>
       </div>
     </main>
   </div>
@@ -121,6 +122,10 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    .btn {
+      background-color: #0b85ff;
+      padding: 10px 50px;
+    }
   }
 }
 </style>

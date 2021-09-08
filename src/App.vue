@@ -59,6 +59,6 @@ body {
   text-decoration: none;
   padding: 15px 10px;
   color: rgb(255, 254, 254);
-  border: 1px solid blue;
+  border: 1px solid #0b85ff;
 }
 </style>

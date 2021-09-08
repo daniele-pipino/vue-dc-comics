@@ -19,7 +19,7 @@ export default {
   background-size: cover;
   position: relative;
   .btn {
-    background-color: blue;
+    background-color: #0b85ff;
     position: absolute;
     bottom: -25px;
     font-weight: bolder;
