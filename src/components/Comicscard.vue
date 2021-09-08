@@ -15,5 +15,8 @@ export default {
 <style scoped lang="scss">
 .comic-card {
   flex-basis: 16%;
+  p {
+    padding-left: 3px;
+  }
 }
 </style>
