@@ -1,10 +1,6 @@
 <template>
   <div>
-    <main>
-      <div class="container">
-        <h1>Contents go here</h1>
-      </div>
-    </main>
+    <main></main>
   </div>
 </template>
 

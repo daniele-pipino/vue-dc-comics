@@ -90,7 +90,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
 
   .logo img {
     width: 80px;
